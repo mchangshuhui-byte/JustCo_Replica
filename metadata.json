@@ -1,0 +1,6 @@
+{
+  "name": "JustCo Workspaces",
+  "description": "Flexible Workspaces & Office Space Solutions Across Asia-Pacific",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

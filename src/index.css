@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-justco-blue: #00aeef;
+  --color-justco-dark: #003a5c;
+  --color-surface: #fbf9f8;
+  --color-surface-container-low: #f6f3f2;
+  --radius-custom: 4px;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Custom micro-interactions */
+.hover-lift {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 58, 92, 0.1), 0 8px 10px -6px rgba(0, 58, 92, 0.1);
+}
+
